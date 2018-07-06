@@ -1,0 +1,97 @@
+{
+  "content":[
+    {"type":"text","text":"just for testing"},
+
+    {"type": "image", "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I="},
+
+    {"type": "link",
+                    "contentText": "this is a link message",
+                    "linkText": "Google",
+                    "link": "http://www.google.com"},
+
+    {"type": "buttonTemplate",
+                    "contentText": "美食",
+                    "buttons": [{
+                        "text": "美团",
+                        "link": "http://www.meituan.com/"
+                    }, {
+                        "text": "what's your question",
+                        "postback": "ButtonTemplate_FAQ"
+      },{
+                      "text": "Game",
+                      "link": "http://www.qq.com"
+                    }]
+    },
+    {"type": "text",
+                    "text": "你好",
+                    "i18nTexts": [
+                        {
+                            "language": "ja_JP",
+                            "text": "こんにちは"
+                        },
+                        {
+                            "language": "ko_KR",
+                            "text": "안녕하세요"
+                        },
+                        {
+                            "language": "zh_CN",
+                            "text": "你好"
+                        },
+                        {
+                            "language": "zh_TW",
+                            "text": "台湾你好"
+                        },
+                        {
+                            "language": "en_US",
+                            "text": "hello"
+                        }
+                    ]
+    },
+    {
+      "type": "sticker",
+      "packageId": "1",
+      "stickerId": "1"
+    },
+    {
+      "type": "listTemplate",
+      "coverData": {
+        "resourceId":"WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I=",
+        "title": "test message",
+        "subtitle": "sub test message"
+      },
+      "elements":[
+        {
+          "title":"WorksMobile's HomePage",
+          "subtitle":"Press the button to visit.",
+          "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I=",
+          "button":{
+            "text": "Visit",
+            "link": "https://line.worksmobile.com"
+          }
+        },
+        {
+          "title":"FAQ",
+          "subtitle": "Talk with bot.",
+          "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I=",
+          "button":{
+            "text": "Talk",
+            "postback": "ListTemplate_Talk"
+          }
+        },
+        {
+          "title":"FAQ",
+          "subtitle": "Talk with bot.",
+          "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I=",
+          "button":{
+            "text": "Talk",
+            "postback": "ListTemplate_Talk"
+          }
+        }
+      ],
+      "buttons":[[{
+        "text": "View more",
+        "postback": "ListTemplate_ViewMore"
+      }]]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+---
+
+api_id: kr1XVaLgpFKCK # set your api_id of your account here
+
+
+headers:
+  consumerKey: EVqL5g2gdBpadJ69iV3O # set your Server API Consumer Key here
+  # set your registered server token here
+  Authorization: Bearer AAAA8fOUju6g3LHaJucYIa6E4PhP2JjlfHR67/a+0hWYC+askvdO9H8ck6DW4+a1PDqvYaTCGRJ1jFYkr+v0BS0F1eNLwWbuzYxoXOBBjcEheHj+AdpePmWQCkBVLIjKSYQW/P42HfsHWl0mrg7trarRf5OYCC+lBJGYBrMKhbdLlnSJzZY6GU1G/dF3dkqyo8NOIYoumnMq9WtXSzLQLBldixsBMbeWFx6PGQTdQXc8FS58WjwLmq1jVq/IAqLd6xAYTUzQI/c7BBKuXS184/ByLBAvI/HLPFLDg3KfmNuzz6OM9hraaGSGIvg2+8cZ/+YXpUY3Gn+57gosCChYpTz6vRo=
+  Content-type: application/json # please keep this value here, don't modify it
+
+urls:
+  server_urls:
+    - https://alpha-apis.worksmobile.com/
+    - https://03bacbf3.ngrok.io # set the callback server url here
+  api_urls:
+    - /message/sendMessage/v2
+    - /message/setCallback/v2
+    - /message/createRoom/
+    - /message/getRoomMemberList
+    - /message/setPersistentMenu
+    - /message/getPersistentMenu
+
+account_ids: # if you want create a chat room with some users you can add the accounts which you want to invite here with the same  format
+  - johnny@nwetest.com
+  - johnny001@nwetest.com
+  - johnny002@nwetest.com
+  - johnny003@nwetest.com
+  - johnny004@nwetest.com
+
+single_account: johnny001@nwetest.com # if you just want to sent messages to one user, please set the accountId here
+
+bot_list: # if you want to send messages with multiple bot, you can set the all bot number here with the same format
+  - 621
+  - 607
+
+single_bot: 621 # if you just want to send message with one bot, please set the bot number here
+
+message_count: 10 # set the quantity of message that you want to send to user
