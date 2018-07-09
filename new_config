@@ -30,7 +30,7 @@ account_ids: # if you want create a chat room with some users you can add the ac
 
 single_account: johnny001@nwetest.com # if you just want to sent messages to one user, please set the accountId here
 
-bot_list: # if you want to send messages with multiple bot, you can set the all bot number here with the same format
+bot_list: # if you want to send messages with multiple bot, you can set all bot numbers here with the same format "- xxx"
   - 621
   - 607
 
