@@ -30,10 +30,7 @@ def message_bomb():
                     break
                 else:
                     print('choose the message type number in (1,2,3)')
-            except SyntaxError:
-                print("please input a integer")
-                continue
-            except NameError:
+            except (SyntaxError, NameError):
                 print("please input a integer")
                 continue
             except BadRequestError:
