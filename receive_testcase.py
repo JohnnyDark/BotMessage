@@ -1,6 +1,6 @@
 from socket import AF_INET, socket, SOCK_STREAM
 
-from messagebot.all_methods import *
+from all_methods import *
 
 
 def receive_server():

@@ -3,7 +3,7 @@ import random
 
 import requests
 
-from messagebot.ConfigInfo import config_info, content_info
+from ConfigInfo import config_info, content_info
 
 configData = config_info()
 headers = configData['headers']

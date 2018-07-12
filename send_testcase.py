@@ -1,12 +1,12 @@
 import sys
 
-from messagebot.ConfigInfo import config_info
-from messagebot.all_methods import send_all_type, send_one_type, send_complex, BadRequestError
+from ConfigInfo import config_info
+from all_methods import send_all_type, send_one_type, send_complex, BadRequestError
 
 single_bot = config_info()['single_bot']
 single_account = config_info()['single_account']
 
-print(sys.path)
+
 
 
 def message_bomb():
