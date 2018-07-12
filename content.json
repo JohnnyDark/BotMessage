@@ -2,7 +2,7 @@
   "content":[
     {"type":"text","text":"just for testing"},
 
-    {"type": "image", "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I="},
+    {"type": "image", "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp0KnI/7Yj5g3yyTPsP32DVxeU1/iCFBGco4TPzGItjh+gWeItcmXMriFK3l8rhvKbE="},
 
     {"type": "link",
                     "contentText": "this is a link message",
@@ -55,7 +55,7 @@
     {
       "type": "listTemplate",
       "coverData": {
-        "resourceId":"WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I=",
+        "resourceId":"WAAAQPwBexX2HnseNvvM9Zyhvp0KnI/7Yj5g3yyTPsP32DVxeU1/iCFBGco4TPzGItjh+gWeItcmXMriFK3l8rhvKbE=",
         "title": "test message",
         "subtitle": "sub test message"
       },
@@ -63,7 +63,7 @@
         {
           "title":"WorksMobile's HomePage",
           "subtitle":"Press the button to visit.",
-          "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I=",
+          "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp0KnI/7Yj5g3yyTPsP32DVxeU1/iCFBGco4TPzGItjh+gWeItcmXMriFK3l8rhvKbE=",
           "button":{
             "text": "Visit",
             "link": "https://line.worksmobile.com"
@@ -72,7 +72,7 @@
         {
           "title":"FAQ",
           "subtitle": "Talk with bot.",
-          "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I=",
+          "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp0KnI/7Yj5g3yyTPsP32DVxeU1/iCFBGco4TPzGItjh+gWeItcmXMriFK3l8rhvKbE=",
           "button":{
             "text": "Talk",
             "postback": "ListTemplate_Talk"
@@ -81,7 +81,7 @@
         {
           "title":"FAQ",
           "subtitle": "Talk with bot.",
-          "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp04fXj6cFERbJofC6HkFxkpcIh51GDRos+lx+P7U+H9Wv8HwbQGqq31iLoEtUix/+I=",
+          "resourceId": "WAAAQPwBexX2HnseNvvM9Zyhvp0KnI/7Yj5g3yyTPsP32DVxeU1/iCFBGco4TPzGItjh+gWeItcmXMriFK3l8rhvKbE=",
           "button":{
             "text": "Talk",
             "postback": "ListTemplate_Talk"

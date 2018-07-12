@@ -17,6 +17,7 @@ callback_server = configData['urls']['server_urls'][1]
 
 bot_list = configData['bot_list']
 single_bot = configData['single_bot']
+single_account = config_info()['single_account']
 message_count = configData['message_count']
 
 member_list = configData['account_ids']
@@ -41,6 +42,7 @@ def send_single_message(accountId, msg_type, bot_num):
     response = requests.post(url, headers=headers, json=params)
     response_message = response.content.decode('utf-8')
     msg_dic = json.loads(response_message)
+    print(msg_dic)
     if "errorMessage" in msg_dic:
         raise BadRequestError()
 

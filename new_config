@@ -12,7 +12,7 @@ headers:
 urls:
   server_urls:
     - https://alpha-apis.worksmobile.com/
-    - https://03bacbf3.ngrok.io # set the callback server url here
+    - https://f359917f.ngrok.io # set the callback server url here
   api_urls:
     - /message/sendMessage/v2
     - /message/setCallback/v2
