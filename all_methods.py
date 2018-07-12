@@ -90,13 +90,15 @@ def chat_room(title):
 def send_message_in_room(roomId):
     """在bot聊天室中发送消息"""
     url = prefix_url + send_url
+    type_num = random.randint(0, len(message_types) - 1)
     params = {
         "botNo": single_bot,
         "roomId": roomId,
-        "content": message_types[0]
+        "content": message_types[type_num]
     }
-    response = requests.post(url, headers=headers, json=params)
-    print(response.content)
+    for i in range(message_count):
+        response = requests.post(url, headers=headers, json=params)
+        print(response.content)
 
 
 """
@@ -141,8 +143,9 @@ def get_user_info(userData):
 
 def multiple_callback(account_id):
     """调用多个bot回复"""
+    type_num = random.randint(0, len(message_types) - 1)
     for bot in bot_list:
-        send_single_message(account_id, message_types[0], bot)
+        send_single_message(account_id, message_types[type_num], bot)
 
 
 def single_callback(account_id):

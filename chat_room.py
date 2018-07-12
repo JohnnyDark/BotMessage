@@ -1,4 +1,4 @@
-from all_methods import *
+
 
 from all_methods import chat_room, send_message_in_room
 
@@ -13,4 +13,5 @@ def invite_to_chatroom():
 
 if __name__ == '__main__':
     invite_to_chatroom()
+
 

@@ -12,7 +12,7 @@ headers:
 urls:
   server_urls:
     - https://alpha-apis.worksmobile.com/
-    - https://f359917f.ngrok.io # set the callback server url here
+    - https://7495d9df.ngrok.io # set the callback server url here
   api_urls:
     - /message/sendMessage/v2
     - /message/setCallback/v2
@@ -36,4 +36,4 @@ bot_list: # if you want to send messages with multiple bot, you can set all bot 
 
 single_bot: 621 # if you just want to send message with one bot, please set the bot number here
 
-message_count: 10 # set the quantity of message that you want to send to user
+message_count: 50 # set the quantity of message that you want to send to user

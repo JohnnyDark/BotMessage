@@ -10,24 +10,33 @@ def receive_server():
     server_socket.listen(10)
     bind_multiple_bot()
     while True:
-        replay_message_type = eval(input('please input the way of callback: '))
-        if replay_message_type not in [1, 2, 3, 4]:
+        try:
+            replay_message_type = eval(input('please input the way of callback: '))
+            if replay_message_type not in [1, 2, 3, 4]:
+                continue
+        except (SyntaxError,NameError):
+            print("input a integer！！！")
             continue
+
         while True:
+            print("test")
             new_socket, client_info = server_socket.accept()
             callback_data = new_socket.recv(1024).decode('utf-8')
             print(callback_data)
             message_target = get_user_info(callback_data)
+
             if '@' in message_target:
-                print("ok")
                 print(message_target)
                 if replay_message_type == 1:
+
                     send_all_type(message_target, single_bot)
                     break
                 elif replay_message_type == 2:
+
                     send_one_type(message_target, single_bot)
                     break
                 elif replay_message_type == 3:
+
                     send_complex(message_target, single_bot)
                     break
                 elif replay_message_type == 4:
